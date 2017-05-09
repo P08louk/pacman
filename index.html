@@ -111,7 +111,7 @@
             this.move(Phaser.LEFT);
             
             lives = game.add.group();
-            game.add.text(game.world.width - 340, 500, 'Lives : ', { fontSize: '34px Arial', fill: 'white' });
+            game.add.text(game.world.width - 300, 500, 'Lives : ', { fontSize: '34px Arial', fill: 'red' });
             for (var i = 0; i < 3; i++) 
 		    {
 			var pacman = lives.create(game.world.width - 235 + (30 * i), 517, 'pacman');
